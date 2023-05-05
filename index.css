@@ -1,0 +1,72 @@
+:root {
+  background-color: #131516;
+  color: bisque;
+}
+
+#firstInputP {
+  border-color: rgb(255, 255, 255);
+  color: #131516;
+}
+
+.fieldSet {
+  display: grid;
+  gap: 5px;
+}
+
+.fieldSet-2 {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+.fieldSet-3{
+    grid-row: 2/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+#submitButton{
+    margin-left: 50%;
+}
+
+.addBookButton{
+    width: 100px;
+    height: 50px;
+    border-radius: 1.5rem;
+    background-color: bisque;
+}
+
+.firstPart{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1{
+    border-color: 3px solid red;
+}
+
+.bookInformationWindow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bookTable, table, th, td {
+    border: 1px solid bisque;
+    padding: 0.5rem;
+  }
+
+#formContainer{
+    border: 1px solid bisque;
+    padding: 0.5rem; 
+}
+
+.removeButton{
+    color: red;
+}

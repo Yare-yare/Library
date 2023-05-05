@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+    <title>Library</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="firstPart"><h1>Library</h1></div>
+      <form id="form" action="" method="">
+        <fieldset class="fieldSet">
+          <legend>What book you reading?</legend>
+          <label for="bookOfChoice" name="firstInput" id="firstInput">What is the name of your book?</label>
+          <input type="text" id="bookChoice" placeholder="Harry Potter" />
+
+          <label for="author" name = "author" id="seconedInput" >Author?</label>
+          <input type="text" placeholder="J.K Rowling" id="author"/>
+
+          <label for="pages" name = "pages" id="thirdInput" >How many pages?</label>
+          <input type="text" placeholder = "1000 pages" id="pages"/>
+
+          <label for="doneReading" id="fourthInput" name = "doneReading" >Did you finish reading it?</label>
+          <input type="text" placeholder="No/Yes" id="doneReading"/>
+        </fieldset>
+        <input type="submit" id="submitButton"></button>
+      </form>
+      <fieldset class="fieldSet-2">
+        <legend>Book Details:</legend>
+        <div class="bookInformationWindow">
+            <table id="table">
+                <tr>
+                  <th>Book:</th>
+                  <td id="book"></td> 
+                </tr>
+                <tr>
+                  <th>Author:</th>  
+                  <td id="writter"></td>      
+                </tr>  
+                <tr>
+                    <th>Pages:</th>
+                    <td id="papers"></td>
+                </tr>
+                <tr>
+                    <th>Read?</th>
+                    <td id="read"></td>
+                </tr>
+              </table>
+        </div>
+      </fieldset>
+      <fieldset class="fieldSet-3">
+        <legend>Add Another Book:</legend>
+        <button id="addBookButton">Add!</button>
+        <div id="formContainer"></div>
+        <button type="submit" id="seconedSubmit">Submit</button>
+      </fieldset>
+    </div>
+  </body>
+</html>
